@@ -434,3 +434,85 @@ ul {
     font-size: 14px;
     margin-bottom: 20px;
 }
+
+/**************************************************/
+/* Section buttons. */
+
+#menu {
+    display: flex;
+  }
+  
+  .menu-item {
+    float: left;
+    margin-right: 2em;
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    line-height: 2.4em;
+    margin-top: 0.5em;
+    color: #a0a8b0;
+  }
+  
+  .selected h2 {
+    color: #150c21;
+  }
+  
+  .button {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #a0a8b0;
+    font-size: 1.6em;
+    line-height: 2.4em;
+    margin-top: 0.5em;
+    margin-right: 1em;
+    float: left;
+    padding: 0;
+  }
+  
+  .button:hover {
+    color: #150c21;
+  }
+  
+  .button:active,
+  .button.is-checked {
+    color: #150c21;
+  }
+  
+  .button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+/**************************************************/
+/* Isotope grid list of items. */
+
+.grid {
+    padding-bottom: 6em;
+  }
+  
+  /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .description {
+    margin-bottom: 1em;
+  }
+  
+  .list-item {
+    width: 100%;
+    line-height: 1em;
+    margin-top: 1em;
+  }
+  
+  .list-item p.date {
+    display: inline-block;
+    width: 3em;
+    color: #a0a8b0;
+  }
