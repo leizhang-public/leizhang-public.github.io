@@ -45,13 +45,16 @@ table {
 }
 
 #body{
-    font-family: roboto, sans-serif;
+    font-family: 'Asap', roboto, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #150c21;
 }
 
 #main {
-    width: 900px;
+    width: 54em;
     margin: 0px auto;
-    color: #a0a8b0;
+    position: relative;
     min-height: 100vh;
 }
 
@@ -63,12 +66,14 @@ p {
 a {
     text-decoration: none;
     color: #49bf9d;
+    /* color: rgb(20, 110, 190); */
 }
 
 a:hover {
     text-decoration: none;
     border-bottom: 1px solid #a4dfce;
-    text-decoration-color: 
+    /* border-bottom: 1px solid rgb(20, 110, 190); */
+    
 }
 
 i {
@@ -80,11 +85,9 @@ b {
 }
 
 h1 {
-    font-size: 24px;
-    line-height: 24px;
-    width: 100%;
-    margin: 30px auto 20px 30px;
-    color: #191e3f;
+    font-size: 2.4em;
+    line-height: 3em;
+    font-weight: 500;
 }
 
 /**************************************************/
@@ -94,121 +97,34 @@ h1 {
     /*border-bottom: 1px solid #ddd;*/
 }
 
+
 /**************************************************/
+/* Profile image and description. */
 
-#profile {
-    padding: 30px 0px 17px 30px;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 20px;
+#intro {
+    padding-top: 6em;
+    display: flex;
 }
 
-#profile-name {
-    width: 100%;
-    font-size: 24px;
-    line-height: 24px;
-    color: #191e3f;
-    margin-bottom: 10px;
+#intro-text {
+    width: 40em;
     float: left;
 }
 
-#profile img {
-    height: 200px;
-    margin-top: 5px;
-    float: right;
-    margin-right: 30px;
-}
-
-#profile p {
-    margin-bottom: 13px;
-}
-
-#profile-desc {
-    width: 100%;
+#intro-image {
+    margin: 2em 0 0 2em;
+    width: 12em;
+    height: 12em;
     float: left;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+#intro-image img {
+    width: 12em;
 }
 
 /**************************************************/
-
-.paper p {
-    margin-left: 30px;
-}
-
-.paper img {
-    margin-left: 30px;
-    width: 900px;
-    margin-bottom: 30px;
-}
-.paper p a:hover {
-    border-bottom: 1px solid #a4dfce;
-}
-
-.paper a:hover {
-    border-bottom: none;
-}
-
-
-/**************************************************/
-
-.team {
-    clear: both;
-    content: "";
-    display: table;
-    margin-left: 30px;
-}
-
-.team h1 {
-    margin-left: 0px;
-    margin-bottom: 30px;
-}
-
-.people-profile {
-    width: 120px;
-    margin-right: 10px;
-    float: left;
-    margin-bottom: 20px;
-}
-
-
-.people-profile img {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-}
-
-.people-profile p {
-    font-size: 13px;
-    text-align: center;
-}
-
-.people-profile a {
-    text-decoration: none;
-    border-bottom: none;
-}
-
-.people-profile a:hover {
-    text-decoration: none;
-    border-bottom: none;
-}
-
-/**************************************************/
-
-.teamlogo p {
-    padding-top: 10px;
-    padding-left: 10px;
-    line-height: 50px
-    margin-left: 40px;
-    margin-top: 0px;
-    font-size: 18px;
-    float: left;
-}
-
-.teamlogo img {
-    margin-left: 30px;
-    width: 50px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    float: left;
-}
 
 .video p {
     margin-left: 30px;
