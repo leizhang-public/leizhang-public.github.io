@@ -13,477 +13,230 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 body {
-    line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
+/**************************************************/
+
 #body{
-    font-family: 'Asap', roboto, sans-serif;
-    font-size: 1em;
-    line-height: 1.5em;
-    color: #150c21;
+  font-family: 'Asap', roboto, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #150c21;
 }
 
 #main {
-<<<<<<< HEAD
-    width: 54em;
-    margin: 0px auto;
-    position: relative;
-    min-height: 100vh;
-=======
-    width: 960px;
-    margin: 0px auto;
-    color: #a0a8b0;
->>>>>>> parent of 86bec83... change format of image and width of page
-}
-
-p {
-    font-size: 14px;
-    line-height: 24px;
+  width: 54em;
+  margin: 0px auto;
+  position: relative;
+  min-height: 100vh;
 }
 
 a {
-    text-decoration: none;
-    color: #49bf9d;
-    /* color: rgb(20, 110, 190); */
+  text-decoration: none;
+  color: rgb(20, 110, 190);
 }
 
 a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid #a4dfce;
-    /* border-bottom: 1px solid rgb(20, 110, 190); */
-    
+  text-decoration: none;
+  border-bottom: 1px solid rgb(20, 110, 190);
 }
 
 i {
-    font-style: italic;
+  font-style: italic;
 }
 
 b {
-    font-weight: bold;
+  font-weight: 700;
 }
 
 h1 {
-    font-size: 2.4em;
-    line-height: 3em;
-    font-weight: 500;
+  font-size: 2.4em;
+  line-height: 3em;
+  font-weight: 500;
 }
-
-/**************************************************/
-
-#header {
-    height: 120px;
-    /*border-bottom: 1px solid #ddd;*/
-}
-
-<<<<<<< HEAD
-=======
-/**************************************************/
-
-#profile {
-    padding: 30px 0px 17px 30px;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 20px;
-}
-
-#profile-name {
-    width: 100%;
-    font-size: 24px;
-    line-height: 24px;
-    color: #191e3f;
-    margin-bottom: 10px;
-    float: left;
-}
-
-#profile img {
-    height: 180px;
-    margin-top: 5px;
-    float: left;
-    margin-right: 30px;
-}
-
-#profile p {
-    margin-bottom: 13px;
-}
-
-#profile-desc {
-    width: 100%;
-    float: left;
-}
-
-/**************************************************/
-
-.paper p {
-    margin-left: 30px;
-}
-
-.paper img {
-    margin-left: 30px;
-    width: 900px;
-    margin-bottom: 30px;
-}
-.paper p a:hover {
-    border-bottom: 1px solid #a4dfce;
-}
-
-.paper a:hover {
-    border-bottom: none;
-}
-
->>>>>>> parent of 86bec83... change format of image and width of page
 
 /**************************************************/
 /* Profile image and description. */
 
 #intro {
-    padding-top: 6em;
-    display: flex;
+  padding-top: 6em;
+  display: flex;
 }
 
 #intro-text {
-    width: 40em;
-    float: left;
+  width: 40em;
+  float: left;
 }
 
 #intro-image {
-    margin: 2em 0 0 2em;
-    width: 12em;
-    height: 12em;
-    float: left;
-    overflow: hidden;
-    border-radius: 1em;
+  margin: 2em 0 0 2em;
+  width: 12em;
+  height: 12em;
+  float: left;
+  overflow: hidden;
+  border-radius: 1em;
 }
 
 #intro-image img {
-    width: 12em;
+  width: 12em;
 }
-
-/**************************************************/
-
-.video p {
-    margin-left: 30px;
-}
-
-.video iframe {
-    margin-left: 30px;
-}
-
-.half {
-    width: 450px;
-    float: left;
-}
-
-div.code {
-    font-size: 12px;
-    line-height: 20px;
-    margin-left: 30px;
-    border-radius: 0.35em;
-    border: solid 2px #efefef;
-    background: #f7f7f7;
-    font-family: monospace;
-    padding: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space:nowrap;
-    width: 405px;
-    margin-bottom: 30px;
-}
-
-.acknowledgements p {
-    margin-left: 30px;
-}
-
-.recent-work {
-    clear: both;
-    content: "";
-    display: table;
-}
-
-.highlight-proj {
-    width: 280px;
-    margin-left: 30px;
-    float: left;
-}
-
-.highlight-proj video {
-    width: 100%;
-    margin-top: 10px;
-}
-
-.highlight-proj a {
-    text-decoration: none;
-    border-bottom: none;
-}
-
-.highlight-proj a:hover {
-    text-decoration: none;
-    border-bottom: none;
-}
-
-.highlight-proj p {
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-
-.highlights a {
-    text-decoration: none;
-    border-bottom: none;
-    float: left;
-}
-
-.highlights a:hover {
-    text-decoration: none;
-    border-bottom: none;
-}
-
-/**************************************************/
-
-.divider {
-    width: 100%;
-    border-bottom: 1px solid #ddd;
-    clear: both;
-    content: "";
-    display: table;
-}
-
-ul {
-    font-size: 14px;
-    line-height: 24px;
-    list-style-position: inside;
-    /*list-style-type: disc;*/
-    color: #a0a8b0;
-}
-
-#news-dates {
-    margin: 0px 0px 0px 30px;
-    width: 90px;
-    float: left;
-}
-
-#news-items {
-    float: left;
-}
-
-.showBtn {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 24px;
-    float: left;
-}
-
-.showBtn a {
-    color: #a0a8b0;
-    cursor: pointer;
-}
-
-.showBtn a:hover {
-    border-bottom: 1px solid #a0a8b0;
-}
-
-#moreNewsDates {
-    display: none;
-}
-
-#moreNewsItems {
-    display: none;
-}
-
-#moreNewsBtn {
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-
-#lessNewsBtn {
-    display: none;
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-
-/**************************************************/
-
-.research {
-    /*padding-bottom: 30px;*/
-}
-
-.research p {
-    color: #a0a8b0;
-}
-
-.research-proj {
-    margin-left: 30px;
-    margin-bottom: 20px;
-    width: 100%;
-    clear: both;
-    content: "";
-    display: table;
-}
-
-.research-thumb {
-    width: 180px;
-    float: left;
-    margin-top: 10px;
-    margin-right: 30px;
-    border-bottom: none;
-}
-
-.research-thumb:hover {
-    border-bottom: none;
-}
-
-.research-thumb img {
-    width: 100%;
-    /*border: 1px solid #191e3f;*/
-}
-
-.research-proj-desc {
-    width: 690px;
-    float: left;
-}
-
-.research-proj h2 {
-    color: #191e3f;
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.research-proj h2 a {
-    color: #191e3f;
-}
-
-.research-proj h2 a:hover {
-    border-bottom: 1px solid #191e3f;
-}
-
-.research-proj p {
-    font-size: 14px;
-    line-height: 24px;
-    color: #a0a8b0;
-}
-
-#morePubs {
-    display: none;
-}
-
-#morePubsBtn {
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-
-#lessPubsBtn {
-    display: none;
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-
 
 /**************************************************/
 /* Section buttons. */
 
 #menu {
-    display: flex;
-  }
-  
-  .menu-item {
-    float: left;
-    margin-right: 2em;
-  }
-  
-  h2 {
-    font-size: 1.6em;
-    line-height: 2.4em;
-    margin-top: 0.5em;
-    color: #a0a8b0;
-  }
-  
-  .selected h2 {
-    color: #150c21;
-  }
-  
-  .button {
-    display: inline-block;
-    cursor: pointer;
-    border: none;
-    background: none;
-    color: #a0a8b0;
-    font-size: 1.6em;
-    line-height: 2.4em;
-    margin-top: 0.5em;
-    margin-right: 1em;
-    float: left;
-    padding: 0;
-  }
-  
-  .button:hover {
-    color: #150c21;
-  }
-  
-  .button:active,
-  .button.is-checked {
-    color: #150c21;
-  }
-  
-  .button-group:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
+  display: flex;
+}
+
+.menu-item {
+  float: left;
+  margin-right: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  line-height: 2.4em;
+  margin-top: 0.5em;
+  color: #a0a8b0;
+}
+
+.selected h2 {
+  color: #150c21;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #a0a8b0;
+  font-size: 1.6em;
+  line-height: 2.4em;
+  margin-top: 0.5em;
+  margin-right: 1em;
+  float: left;
+  padding: 0;
+}
+
+.button:hover {
+  color: #150c21;
+}
+
+.button:active,
+.button.is-checked {
+  color: #150c21;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 
 /**************************************************/
 /* Isotope grid list of items. */
 
 .grid {
-padding-bottom: 6em;
+  padding-bottom: 6em;
 }
-  
+
 /* clear fix */
 .grid:after {
-content: '';
-display: block;
-clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .description {
-margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .list-item {
-width: 100%;
-line-height: 1em;
-margin-top: 1em;
+  width: 100%;
+  line-height: 1em;
+  margin-top: 1em;
 }
 
 .list-item p.date {
-display: inline-block;
-width: 3em;
-color: #a0a8b0;
+  display: inline-block;
+  width: 3em;
+  color: #a0a8b0;
+}
+
+/**************************************************/
+/* Gallery of 3 preview videos. */
+
+.previews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  height: 12.5em;
+}
+
+.previews video {
+  border-radius: 5px;
+}
+
+.previews a:hover {
+  border: none;
+}
+
+.preview1 {
+  grid-column: 1;
+  width: 100%;
+}
+.preview2 {
+  grid-column: 2;
+  width: 100%;
+}
+.preview3 {
+  grid-column: 3;
+  width: 100%;
+}
+
+/**************************************************/
+/* Buttons for showing more or less highlights. */
+
+.toggle-button {
+  margin-top: 2em;
+}
+
+.toggle-button a {
+  color: #a0a8b0;
+}
+
+.toggle-button a:hover {
+  color: rgb(20, 110, 190);
 }
 
 /**************************************************/
@@ -491,64 +244,63 @@ color: #a0a8b0;
 
 .thumbnail {
 /*  width: 21%;*/
-width: 18%;
-float: left;
-margin-right: 2%;
+  width: 18%;
+  float: left;
+  margin-right: 2%;
 }
 
 .thumbnail:hover {
-border-bottom: none;
+  border-bottom: none;
 }
 
 .thumbnail img {
-margin-top: 0.4em;
-border-radius: 5px;
-width: 100%;
-height: 100%;
+  margin-top: 0.4em;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .thumbnail video {
-margin-top: 0.4em;
-border-radius: 5px;
-width: 100%;
-height: 100%;
+  margin-top: 0.4em;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 h3 {
-font-size: 1em;
-line-height: 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 h3 a {
-color: #150c21;
+  color: #150c21;
 }
 
 h3 a:hover {
-color: rgb(20, 110, 190);
+  color: rgb(20, 110, 190);
 }
-    
 
 .publication {
-margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .publication p {
-font-size: 1em;
-line-height: 1.5em;
-color: #a0a8b0;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #a0a8b0;
 }
 
 .project-description {
-width: 80%;
-float: left;
+  width: 80%;
+  float: left;
 }
-  
-/**************************************************/
 
-#footer p {
-    width: 100%;
-    margin-top: 120px;
-    margin-left: 30px;
-    font-size: 14px;
-    margin-bottom: 20px;
+/**************************************************/
+/* Subtle footer at the bottom of the page. */
+
+#footer {
+  color: #a0a8b0;
+  position: absolute;
+  bottom: 0;
+  line-height: 2.5em;
 }
