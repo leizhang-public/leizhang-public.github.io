@@ -49,9 +49,10 @@ table {
 }
 
 #main {
-    width: 960px;
+    width: 900px;
     margin: 0px auto;
     color: #a0a8b0;
+    min-height: 100vh;
 }
 
 p {
@@ -111,9 +112,9 @@ h1 {
 }
 
 #profile img {
-    height: 180px;
+    height: 200px;
     margin-top: 5px;
-    float: left;
+    float: right;
     margin-right: 30px;
 }
 
