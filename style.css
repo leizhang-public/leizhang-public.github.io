@@ -102,7 +102,7 @@ h1 {
   width: 12em;
   height: 12em;
   float: left;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 1em;
 }
 
@@ -269,7 +269,7 @@ h2 {
 
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 1.5em;
   /* font-weight: bold; */
 }
