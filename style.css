@@ -267,6 +267,19 @@ h2 {
   height: 100%;
 }
 
+h2-5 {
+  font-size: 1.5em;
+  line-height: 1.8em;
+}
+
+h2-5 a {
+  color: #150c21;
+}
+
+h2-5 a:hover {
+  color: rgb(20, 110, 190);
+}
+
 h3 {
   font-size: 1em;
   line-height: 1.5em;
